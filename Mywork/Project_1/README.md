@@ -2,17 +2,25 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![alt text](Images/playbook_to_install_webservers)
+![alt text](Images/playbook_to_install_webservers.png )
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
 playbook to install webservers 
 
+![alt text](Images/playbook_to_install_webservers.png )
+
 Playbook to install ELK server
+
+![alt text](Images/install-ELK.png )
 
 Playbook to install filebeat 
 
+![alt text](Images/inatall_filebeat.png )
+
 Playbook to install metricbeat
+
+![alt text](Images/install_metrcbeat.png  )
 
 
 This document contains the following details:
@@ -76,7 +84,7 @@ The playbook implements the following tasks:
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 ![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
-
+![](Images/ansible_hosts.png)
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 - _TODO: List the IP addresses of the machines you are monitoring_
